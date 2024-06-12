@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Another One</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="sayhello()">Click Here</button>
+    <h1 id="name">Hello World</h1>
+    <script>
+        const name=document.getElementById("name");
+        console.log(name);
+     
+         //Double slash to comment
+         console.log("Hello World");
+         let x=0;
+         const y=0;
+         x=10;
+         console.log(x);
+         //y=10;(can't change because it's a constant)
+         let a=0;
+         let b=0;
+         a=5;
+         b=10;
+         console.log(a+b);
+         console.log(a*b);
+         console.log(a/b);
+         let w=false;
+         console.log(typeof w);
+         function test(){
+            console.log("Hello There");
+         }
+         test();
+         function add(a,b){
+
+            console.log(a+b);
+
+         }
+         function sub(a,b){
+            console.log(a-b);
+
+         }
+         add(20,30);
+         sub(20,10);
+         //let n="sandesh"
+         //function testagain(Name){
+           // console.log(Name)
+         //}
+         //Name(n);
+
+    function sayhello(){
+        name.innerText="Hello"
+        console.log("Hello, How are you?")
+    }
+       
+         
+
+
+    </script>
+</body>
+
+</html>
