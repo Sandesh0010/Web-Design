@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+
+</head>
+
+<body id="body">
+    <button onclick="changecolor()"> Blue</button>
+    <button onclick="changecolor1()"> Red</button>
+    <button onclick="changecolor2()"> Green</button>
+    <button onclick="changecolor3()"> Yellow</button>
+    <script>
+        const body = document.getElementById("body");
+
+        function changecolor() {
+
+            body.style.backgroundColor = "Blue";
+        }
+        function changecolor1() {
+
+            body.style.backgroundColor = "Red";
+        }
+        function changecolor2() {
+
+            body.style.backgroundColor = "Green";
+        }
+        function changecolor3() {
+
+            body.style.backgroundColor = "Yellow";
+        }
+
+        setTimeout(function(){
+            console.log("callback Function");
+        },3000);
+        setInterval(function(){
+            console.log("calling continuously");
+        },5000);
+
+    </script>
+
+</body>
+
+</html>

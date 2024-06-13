@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New One</title>
+</head>
+<body>
+    <h1 id="name"> Hello World</h1>
+    <div id="content"> </div>
+    <span id="first"></span>
+    <span id="Second"></span>
+    <span id="Third"></span>
+    
+    <script>
+        console.log("How are You?");
+        const content=document.getElementById("content");
+        const myH1= document.createElement("h1");
+        const c1=document.createElement("span");
+        const c2=document.createElement("span");
+        const c3=document.createElement("span");
+     
+        
+        myH1.textContent="Sandesh Khanal";
+        c1.textContent="HII";
+        c2.textContent="HII";
+        c3.textContent="HII";
+        content.append(myH1);
+        content.append(c1);
+        content.append(c2);
+        content.append(c3);
+      
+    
+
+    </script>
+    
+</body>
+</html>
