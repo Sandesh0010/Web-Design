@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color:white;
+ 
+}
+
+
+.btn:hover {
+
+  color: black;
+  border-radius: 20px;
+  
+  }
+
+  .btn{
+    margin:3px;
+  }
+    
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+.card{
+  margin: 20px;
+ 
+}
+
+  
+
+
